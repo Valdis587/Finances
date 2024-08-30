@@ -1,0 +1,33 @@
+.btn-blue {
+    padding: 11px 40px;
+  border-radius: 25px;
+  line-height: 110%;
+  color: $ColorWhite;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  background: $ColorBlue;
+  letter-spacing: 1px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+}
+.btn-blue:hover {
+    background-color: $ColorRed;
+}
+
+.btn-dark {
+  padding: 11px 40px;
+  border-radius: 25px;
+  line-height: 110%;
+  color: $ColorWhite;
+  background-color: $ColorGrey;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.btn-dark:hover {
+  background-color: $ColorRed;
+}
